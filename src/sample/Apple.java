@@ -5,9 +5,6 @@ import javafx.scene.paint.ImagePattern;
 
 public class Apple extends Fruit {
 
-
-
-
     public Apple(double centerX, double centerY, double mradius, double xVelocity, double yVelocity) {
 
         super(centerX, centerY, mradius, xVelocity, yVelocity);

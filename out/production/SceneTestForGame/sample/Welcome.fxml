@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WelcomeController">
+    <children>
+        <ImageView fitHeight="406.0" fitWidth="600.0">
+            <image>
+                <Image url="@../../images/Unity-Fruit-Ninja-1.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="button1" layoutX="135.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#goToLogin" text="Sign In">
+            <font>
+                <Font size="22.0" />
+            </font></Button>
+        <Text layoutX="183.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME">
+            <font>
+                <Font size="50.0" />
+            </font>
+        </Text>
+        <Button fx:id="button2" layoutX="364.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#sampleClick2" text="Sign Up">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

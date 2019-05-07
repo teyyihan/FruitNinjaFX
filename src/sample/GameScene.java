@@ -90,20 +90,7 @@ public class GameScene implements Initializable {
                 if(fail>3){
                     //game over method
 
-                   /* try
-                    {
-                        Parent parent = FXMLLoader.load(getClass().getResource("GameEndScene.fxml"));
 
-                        Scene scene = new Scene(parent);
-
-                        Stage window = (Stage) label1.getScene().getWindow();
-                        window.setScene(scene);
-                        window.hide();
-                    }
-                    catch (IOException ex)
-                    {
-                        System.out.println("GameEndPane.fxml not found..");
-                    }*/
                 }
             }
 
@@ -293,7 +280,6 @@ public class GameScene implements Initializable {
     private void createBalls( double mradius,double mspeed, double initialX, double initialY) {
 
         final Random rng = new Random();
-        double mass = Math.pow((mradius / 40), 3);
         double angle = 2 * PI * rng.nextDouble();
 
 

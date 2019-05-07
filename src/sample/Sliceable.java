@@ -49,5 +49,6 @@ public interface Sliceable {
     DoubleProperty centerYProperty();
 
     Shape getView();
+
     void slice(double angle);
 }
